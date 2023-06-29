@@ -1,0 +1,80 @@
+
+.header {
+  background-color: #F9C764;
+  border-bottom: 5px solid;
+  font-variant: petite-caps;
+  border-color: #373737;
+}
+
+div#app {
+  font-variant: petite-caps;
+}
+
+div.sidebar {
+    height: 780px;
+    transition: 0.5s;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-right: 5px solid;
+    border-color: #373737;
+    background: #64C2F9;
+}
+
+@media (max-width: 767px) {
+    div.sidebar {
+      position: static;
+      height: auto;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-right: 0px solid;
+      border-bottom: 5px solid;
+    }
+  }
+  
+
+  .graficas-container {
+    margin-left: 300px; 
+  }
+
+  span.poweravg {
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+span.energytotal {
+  font-weight: bold;
+  color: teal;
+}
+
+input#fecha {
+  font-weight: bold;
+  color: #2b2b2b;
+  font-size: 20px;
+  font-variant: petite-caps;
+}
+
+button#fechaBtn {
+  height: 51px;
+  background: #F9C764;
+  color: #000;
+  font-variant: petite-caps;
+}
+
+div#graficosContainer {
+  background-image: url(/img/nodata.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  height: 100%;
+}
+
+.card-body.contador {
+  border-bottom: 5px solid;
+  border-right: 5px solid;
+  border-color: #373737;
+  border-radius: 6px;
+}
+
+h4 {
+  text-align: center;
+}
